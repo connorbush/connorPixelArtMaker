@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.mainHeading {
+  /*creates gradient background effect*/
+  background-image: linear-gradient(45deg, purple, blue);
+  border-radius: 10px;
+  color: white;
+  text-shadow: 3px 3px 3px teal;
+}
+
+#pixelCanvas {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.pixel {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr {
+  height: 15px;
+}
+
+td {
+  height: 15px;
+  width: 15px;
+}
+
+#gridChooser {
+  text-shadow: 1px 1px 1px teal;
+}
+
+#chooseColor {
+  font-family: fantasy;
+  text-shadow: 1px 1px 1px teal;
+}

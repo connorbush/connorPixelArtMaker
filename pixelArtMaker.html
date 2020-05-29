@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MikeRowSoft Pain't</title>
+    <link rel="stylesheet" href="pixelStyles.css">
+</head>
+<body>
+    <h1 class="mainHeading">MikeRowSoft Pain't</h1>
+
+    <form id="gridChooser">
+      Grid Height:
+      <input type="number" id="inputHeight" name="height" min="1" value="1">
+      Grid Width:
+      <input type="number" id="inputWidth" name="width" min="1" value="1">
+      <input type="submit">
+    </form>
+
+    <h2 id="chooseColor">Choose Color: <input type="color" id="colorPicker"> </h2>
+
+    <table id="pixelCanvas"></table>
+    
+    <script src="pixelArt.js"> </script>
+</body>
+</html>
